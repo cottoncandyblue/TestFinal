@@ -43,9 +43,7 @@ func TestName(t *testing.T){
 		g.Expect(err.Error()).To(Equal("Name cannot be blank"))	
 	})
 }
-//forjgo
-//rfgno
-///rfofo
+
 func TestUrL(t *testing.T){
 	g := NewGomegaWithT(t)
 
